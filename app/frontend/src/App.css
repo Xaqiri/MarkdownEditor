@@ -1,0 +1,152 @@
+#App {
+    height: 100vh;
+    display: flex;
+    font-size: 16pt;
+    --red: #f7768e;
+    --yellow: #e0af68;
+    --orange: #ff9e64;
+    --green: #9ece6a;
+    --cyan: #7dcfff;
+    --blue: #7aa2f7;
+    --teal: #1abc9c;
+    --purple: #9d7cd8;
+    --magenta: #bb9af7;
+    --fg: #c0caf5;
+    --bg: #1a1b26;
+    color: var(--fg);
+    background: var(--bg);
+    overflow: scroll; 
+}
+
+.textarea {
+    font-size: inherit;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background: inherit;
+    color: inherit;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.markdown {
+    overflow: inherit;
+    text-align: left;
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    outline: none;
+}
+
+em, strong {
+    color: var(--cyan);
+}
+
+embed {
+  width: 100%;
+  height: 100vh;
+}
+p {
+  margin: 1em 0em;
+}
+a {
+  color: var(--cyan);
+}
+a:visited {
+  color: var(--blue);
+}
+img {
+  max-width: 100%;
+}
+h1 { 
+  color: var(--red);
+}
+h2 {
+  color: var(--yellow);
+}
+h3 { 
+  color: var(--green);
+}
+h4 {
+  color: var(--cyan);
+}
+h5 { 
+  color: var(--blue);
+}
+h6 {
+  color: var(--magenta);
+  font-weight: normal;  
+  margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  /* margin: 1em 0em; */
+  font-style: italic;
+}
+ol {
+  /* padding-left: 1em; */
+  /* margin-top: 1em; */
+  font-size: 1.1em;
+
+}
+ul {
+  padding-left: 1em;
+  margin-left: 1em;
+  /* list-style-position: outside; */
+  list-style-type: "\25b8";
+  font-size: 1.1em;
+  margin-left: 0px;
+  /* margin-left: 1em; */
+}
+ul > li {
+  padding-left: 0.5em;
+}
+li > ul {
+  list-style-type: "\25b9";
+  font-size: 1em;
+}
+li > ol {
+  font-size: 1em;
+}
+blockquote {
+  margin: 1em 0 1em 1.7em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;
+  color: #86e1fc;
+  background-color: #2f334d;
+}
+code {
+  font-family: 'VictorMono', Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+  font-size: 85%;
+  margin: 0;
+  hyphens: manual;
+  background: blue;
+}
+
+code .keyword {
+    color: var(--blue);
+}
+
+code .number {
+    color: var(--orange);
+}
+
+pre {
+  margin: 1em 0;
+  overflow: auto;
+}
+pre code {
+  padding: 0;
+  overflow: visible;
+  overflow-wrap: normal;
+}
+.sourceCode {
+  background-color: transparent;
+  overflow: visible;
+}
+hr {
+  background-color: #2f334d;
+  border: none;
+  height: 0.5em;
+  margin: 1em 0;
+}
