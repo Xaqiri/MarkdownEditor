@@ -18,6 +18,61 @@
     overflow: scroll; 
 }
 
+input {
+    width: 50%;
+    padding: 0em;
+    margin: 0em;
+    height: 1em;
+    font-size: inherit;
+    color: inherit;
+    border: none;
+    resize: none;
+    outline: none;
+    background: inherit;
+    caret-color: var(--blue);
+}
+
+#editor {
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    border: 1px solid var(--fg);
+    outline: none;
+    height: 1em;
+    caret-shape: block;
+    overflow: auto;
+}
+
+.header {
+    color: var(--red);
+    font-size: 2em;
+}
+
+.header2 {
+    color: var(--yellow);
+    font-size: 1.8em;
+}
+
+.header3 {
+    color: var(--green);
+    font-size: 1.6em;
+}
+
+.header4 {
+    color: var(--cyan);
+    font-size: 1.4em;
+}
+
+.header5 {
+    color: var(--blue);
+    font-size: 1.2em;
+}
+
+.header6 {
+    color: var(--purple);
+    font-size: 1em;
+}
+
 .textarea {
     font-size: inherit;
     width: 50%;

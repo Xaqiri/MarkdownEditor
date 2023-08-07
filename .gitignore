@@ -21,4 +21,9 @@
 go.work
 
 node_modules/
+# */app/build/
 app/build/
+build/bin
+node_modules
+app/frontend/dist
+*.js
